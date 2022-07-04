@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        * {
+            background-color: rgb(255, 242, 206);
+            margin: 17px;
+        }
+        
+        h1 {
+            font-size: 62px;
+            color: red;
+            text-align: center;
+        }
+        
+        h3 {
+            font-size: 30px;
+            color: rgb(243, 98, 45);
+        }
+        
+        p,
+        ul {
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ASSIGNMENT 2</h1>
+    <h3 class="head">Assignment Question</h3>
+    <p class="ques">
+        Develop a simple HTTP server with the following specification using your preferred programming language. The web browser in your system will be acting as the client, who sends HTTP requests.
+    </p>
+    <p class="needs">
+        <ul>
+
+            <li>The HTTP server should listen on port 4040</li>
+            <li>The HTTP server should be able to receive and process HTTP requests from multiple clients.</li>
+            <li>It is assumed that at least 2 HTML pages are present in the local directory of http server</li>
+            <li>The HTTP server should be able to receive a request for a particular file (request using GET method) and should be able to create an HTTP response.
+                <ul>
+                    <li>If the requested file is present in the local directory of HTTP server, then create the HTTP response consisting of the requested file along with appropriate response headers. </li>
+                    <li>If the requested file is not present in the local directory of HTTP server, then the server should return appropriate 404 HTTP response </li>
+                </ul>
+                <li> If the web browser is requesting a file named “getmoved.html”, then the HTTP server should generate HTTP response with 301 status and should redirect the client to www.google.com.</li>
+    </p>
+    </ul>
+</body>
+
+</html>
